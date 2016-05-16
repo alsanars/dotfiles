@@ -1,0 +1,18 @@
+[color]
+	ui = true
+[user]
+	name = alsanars
+	email = alsanars@icloud.com
+	signingkey = ACFD52BC
+[gpg]
+	program = gpg2
+[commit]
+	gpgsign = true
+[merge]
+	ff = no
+	commit = no
+[pull]
+	rebase = true
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = atom --wait
